@@ -1,0 +1,26 @@
+$accent: #66bbe2;
+$default: #243f4d;
+$often: #7b7b7b;
+$top-bg: #edf1f4;
+
+
+
+
+
+%dmsans-700 {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

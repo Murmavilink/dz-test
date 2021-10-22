@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    color: $default;
+    // @extend %rubik-500;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+}
