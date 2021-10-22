@@ -3,7 +3,11 @@ $default: #243f4d;
 $often: #7b7b7b;
 $top-bg: #edf1f4;
 
-
+%flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

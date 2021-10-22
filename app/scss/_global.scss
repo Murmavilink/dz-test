@@ -5,22 +5,30 @@ html, body {
 body {
     font-size: 16px;
     line-height: 32px;
-    display: flex;
-    flex-direction: column;
-    color: $default;
+    font-family: 'Roboto', sans-serif;
+    // display: flex;
+    // flex-direction: column;
+    // color: $default;
     // @extend %rubik-500;
 }
 
-.main {
-    flex-grow: 1;
-}
+// .main {
+//     flex-grow: 1;
+// }
 
 .container {
-    max-width: 1230px;
-    padding: 0 15px;
-    margin: 0 auto;
+    max-width: 1194px;
+    // padding: 0 15px;
+    margin: auto;
 }
 
 a {
+    text-decoration: none;
     color: inherit;
 }
+
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }

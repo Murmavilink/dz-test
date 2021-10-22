@@ -1,4 +1,3 @@
-@import 'reset';
 @import 'vars';
 @import 'fonts';
 @import 'animation';
@@ -7,6 +6,81 @@
 
 
 
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
 
+.auth {
+    margin-left: auto;
+}
+
+.search-form {
+    margin-left: 76px;
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background: rgba(238, 238, 238, 0.71);
+    border-radius: 10px;
+    position: relative;
+}
+
+.search {
+    padding: 13px 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    padding: 0 18px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.login {
+    display: block;
+    background-color: #EBEBEB;
+    border-radius: 50px;
+    padding: 16px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.shoppng-cart {
+    margin-left: 30px;
+    background-color: #F66A15;
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    position: relative;
+    @extend %flex;
+}
+
+
+.shoppng-counter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    font-size: 8px;
+    line-height: 9px;
+    background-color: #FFAF19;
+    border-radius: 50px;
+    @extend %flex;
+}
 
 @import 'media';
